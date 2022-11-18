@@ -146,3 +146,7 @@ p span:hover {
 input[type=number] {
   appearance: textfield;
 }
+
+.error {
+  border: 1px solid red;
+}
