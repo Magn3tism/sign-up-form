@@ -24,38 +24,50 @@
   </div>
 
   <div id="main">
+
+    <div class="top">
+      <p>Zeus has invited all the mortals on olympus mountain for a competition. The victor will be allowed on a feast with the gods including Poseidon, Athena, Dionysus and many more. The defeated will get to meet hades in his underworld.</p>
+      <br>
+      <p>Fill all your details below.</p>
+      <p class="disclaimer">(All fields are required)</p>
+    </div>
+    
     <form>
-
       <div class="form-element">
-        <label for="">Name</label>
-        <input type="text">
+        <label for="fn">First Name</label>
+        <input type="text" id="fn" required>
       </div>
 
       <div class="form-element">
-        <label for="">Name</label>
-        <input type="text">
+        <label for="ln">Last Name</label>
+        <input type="text" id="ln" required>
       </div>
 
       <div class="form-element">
-        <label for="">Name</label>
-        <input type="text">
+        <label for="em">Email</label>
+        <input type="email" id="em" required>
       </div>
 
       <div class="form-element">
-        <label for="">Name</label>
-        <input type="text">
+        <label for="pn">Phone Number</label>
+        <input type="number" id="pn" required>
       </div>
 
       <div class="form-element">
-        <label for="">Name</label>
-        <input type="text">
+        <label for="pass">Password</label>
+        <input type="password" id="pass" required>
       </div>
 
       <div class="form-element">
-        <label for="">Name</label>
-        <input type="text" required>
+        <label for="conpass">Confirm Password</label>
+        <input type="password" id="conpass" required>
       </div>
     </form>
+
+    <div class="bot">
+      <button>Create Account</button>
+      <p>Already have an account? <span>Log In</span></p>
+    </div>
   </div>
 </body>
 </html>
